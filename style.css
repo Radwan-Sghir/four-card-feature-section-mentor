@@ -155,6 +155,21 @@ body {
   }
 }
 
+@media (width < 640px) {
+  .feature-card {
+    width: 90%;
+    height: 200px;
+  }
+  .card-col {
+    align-items: center;
+    width: 100%;
+  }
+  .features-container {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
