@@ -101,28 +101,29 @@ body {
 }
 .feature-card {
   background-color: white;
-  width: 350px;
+  width: 275px;
   height: 175px;
-  padding: 20px 30px;
-  border-radius: 0.2rem;
+  padding: 20px 20px;
+  border-radius: 0.25rem;
   display: flex;
   flex-direction: column;
+  box-shadow: 0 0 16px hsl(180, 62%, 55%, 0.15);
 }
 
 .red-border {
-  border-top: 0.2rem solid hsl(0, 78%, 62%);
+  border-top: 0.25rem solid hsl(0, 78%, 62%);
 }
 
 .cyan-border {
-  border-top: 0.2rem solid hsl(180, 62%, 55%);
+  border-top: 0.25rem solid hsl(180, 62%, 55%);
 }
 
 .orange-border {
-  border-top: 0.2rem solid hsl(34, 97%, 64%);
+  border-top: 0.25rem solid hsl(34, 97%, 64%);
 }
 
 .blue-border {
-  border-top: 0.2rem solid hsl(212, 86%, 64%);
+  border-top: 0.25rem solid hsl(212, 86%, 64%);
 }
 
 .feature-name {
@@ -133,7 +134,7 @@ body {
 .feature-description {
   color: hsl(229, 6%, 66%);
   margin-top: 5px;
-  font-size: 0.7rem;
+  font-size: 0.6rem;
   font-weight: var(--fw-light);
 }
 
